@@ -1,0 +1,113 @@
+.hero{
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+li > a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.hammer{
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-left: 300px;
+}
+
+.who{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.answer{
+    font-size: 30px;
+    color: #f9faf8;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.container2{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+
+.container3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote{
+    font-size: 60px;
+    font-style: italic;
+    align-self: center;
+}
+ 
+
+.author{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    align-self: flex-end;
+    padding-right: 300px;
+}
+
+
+.footer{
+    background-color: #1f2937;
+    font-size: 20px;
+    color:#e5e7eb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
